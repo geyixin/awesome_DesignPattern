@@ -1,13 +1,13 @@
 /*
  * @Author: Eashin
  * @Date: 2020-03-28 16:24:27
- * @LastEditTime: 2020-03-28 21:02:52
+ * @LastEditTime: 2020-03-28 22:11:59
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /awesomme_DesignPattern/simpleFactory.cpp
  */
 
-#include <iostream>
+#include<iostream>
 
 using namespace std;
 
@@ -42,6 +42,7 @@ private:
     string name;
 };
 
+/*
 int main(void)
 {
     Cat daju = Cat("daju");
@@ -52,6 +53,7 @@ int main(void)
     mddm.getName();
     return 0;
 }
+*/
 
 // 使用 简单工厂模式
 
@@ -65,26 +67,26 @@ public:
     virtual void getName() = 0; // 纯虚函数
 };
 
-class Daju:Cat2{
+class Daju : public Cat2{
 public:
     virtual void getName() {
         cout << "我是大橘。" << endl;
     }
-}
+};
 
-class Bosi:Cat2{
+class Bosi : public Cat2{
 public:
     virtual void getName() {
         cout << "我是波斯。" << endl;
     }
-}
+};
 
-class Mddm:Cat2{
+class Mddm : public Cat2{
 public:
     virtual void getName() {
         cout << "我是缅甸大猫。" << endl;
     }
-}
+};
 
 /**
  * @description: 猫咪生产工厂
@@ -97,14 +99,14 @@ public:
         if (name == "daju"){
             return new Daju;
         }
-        eles if (name == "bosi"){
+        else if (name == "bosi"){
             return new Bosi;
         }
         else if (name == "mddm"){
             return new Mddm;
         }
     }
-}
+};
 
 int main(void)
 {
