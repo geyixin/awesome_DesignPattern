@@ -1,11 +1,11 @@
 /*
  * @Author: Eashin
  * @Date: 2020-03-28 16:24:27
- * @LastEditTime: 2020-03-28 22:11:59
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: /awesomme_DesignPattern/simpleFactory.cpp
+ * @FilePath: /creational-models/simpleFactory.cpp
  */
+
 
 #include<iostream>
 
