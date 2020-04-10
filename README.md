@@ -7,8 +7,8 @@
  - [抽象工厂模式](https://github.com/geyixin/awesome_DesignPattern/blob/master/creational-models/abstractFactory.cpp)
  - [单例模式](https://github.com/geyixin/awesome_DesignPattern/blob/master/creational-models/SingletonModel.cpp)
 
-## [结构型设计模式](https://github.com/geyixin/awesome_DesignPattern)
-- [ProxyModel.cpp](https://github.com/geyixin/awesome_DesignPattern/tree/master/structural-models/ProxyModel.cpp)
+## [结构型设计模式](https://github.com/geyixin/awesome_DesignPattern/tree/master/structural-models)
+- [代理模式](https://github.com/geyixin/awesome_DesignPattern/tree/master/structural-models/ProxyModel.cpp)
 ## [行为型设计模式]()
 
 ---
