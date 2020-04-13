@@ -9,6 +9,9 @@
 
 ## [结构型设计模式](https://github.com/geyixin/awesome_DesignPattern/tree/master/structural-models)
 - [代理模式](https://github.com/geyixin/awesome_DesignPattern/tree/master/structural-models/ProxyModel.cpp)
+- [装饰器模式](https://github.com/geyixin/awesome_DesignPattern/tree/master/structural-models/DecoratorModel.cpp)
+- [外观模式](https://github.com/geyixin/awesome_DesignPattern/tree/master/structural-models/FacadeModel.cpp)
+
 ## [行为型设计模式]()
 
 ---
